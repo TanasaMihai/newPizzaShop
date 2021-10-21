@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza-Shop_Project for Mrs.Iyad</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('./img/114393148-homemade-sliced-cheesy-classic-italian-pizza-with-ingredients-and-olive-oil-white-marble-background-.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: 100% 100%;
+        }
+        </style>
+    <div>
+        <h1>Pizza--Shop</h1>
+        <tr></tr>
+        <h2>Pizza-Prices</h2>
+
+     
+
+            <tr>
+            <td>Pepperoni</td> 
+            <td> - </td>
+            <td>5.00 $</td> 
+            </tr> 
+
+            <tr>
+            <td>Vegetable</td>
+            <td> - </td> 
+            <td>9.00$</td> 
+            </tr>
+
+            <tr> 
+            <td>Cheese</td>
+            <td> - </td>  
+            <td>7.00$</td>
+            </tr> 
+            <br>
+            <br>
+            
+            <form name="tblform" >
+                <table width="80%"  id="alignment" >
+                <tr>
+                <th>Item</th>
+                <th> </th>
+                <th>Quantity</th>
+                <th>Price</th>
+                </tr>
+                
+                <tr> 
+                    <td>Item 1:</td> 
+
+                    <td>
+                     <!--SelectPizza-->
+                    <select id="item1">
+                    <option value="Pepperoni Pizza">Pepperoni_Pizza</option> 
+                    </select>
+                    </td> 
+                    <!--Quantity input-->
+                    <td><input type="number" value="0" min=0 id="q1"></td>
+                    <!--Price-->
+                    <td><input type="text" id="p1"></td>
+                    </tr>   
+                    <tr>
+
+                    <td>Item 2:</td>
+                    <td>
+                    <!--SelectPizza-->
+                    <select id="item2">
+                        <option value="Vegetable Pizza">Vegetable_Pizza</option> 
+                    </select>
+                    </td>
+                    <!--Quantity input-->
+                    <td><input  type="number" value="0" min=0 id="q2"></td> 
+                    <!--Price--> 
+                    <td><input type="text"  id="p2"></td>  
+                    </tr> 
+                    <tr>
+
+                    <td>Item 3:</td>
+                    <td>
+                    <!--SelectPizza-->    
+                    <select id="item3">
+                    <option value="Cheese Pizza">Cheese___Pizza</option>
+                    </select>
+                    </td>
+                    <!--Quantity input-->
+                    <td><input type="number" value="0" min=0 id="q3"></td>
+                    <!--Price-->
+                    <td><input type="text"  id="p3"></td> 
+                    </tr>   
+                    <tr>
+
+                    <td></td> 
+                    <td></td> 
+
+                    <td><input type="submit" class="button" value="Create Bill" onclick=createBill()></td>
+
+                    <td><input type="reset" class="button" value="Clear"></td>
+
+                    </tr>
+                    
+    <tr>
+     <td td="" colspan="2"></div></td>
+     <td></td>
+    </tr>
+                    </table>
+                    </form>
+            </table>
+    </div>
+    
+    
+</body>
+</html>
